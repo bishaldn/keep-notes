@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keep your notes</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar" style="background-color: #6610f2;">
+        <div class="container-fluid">
+            <a class="navbar-brand text-white">Keep Note</a>
+            <form class="d-flex" role="search">
+                <input class="form-control me-2 " type="search" id="searchTxt" placeholder="Search Notes" aria-label="Search">
+                
+            </form>
+        </div>
+    </nav>
+    <div class="container my-4 ">
+        <h2>Welcome to Keep Notes</h2>
+        <img class=""  width="367vw" src="https://i.pinimg.com/originals/75/98/57/759857abf9b4a4f5f12cedcb184d49dd.gif" align="right">
+
+        <div class=" card my-4">
+           
+            <div class="card-body">
+                <h5 class="card-title">Add a note</h5>
+                <div class="mb-3">
+                    <textarea class="form-control" id="addtext" rows="2" column="2"></textarea>
+                </div>
+                <button class="btn text-white" style="background-color: #6610f2;" id="addbtn">Add Note</button>
+            </div>
+        </div>
+        <hr>
+        <h2>Your Notes</h2>
+        <hr>
+        <div class=" row container-fluid " id="notes"> </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+        integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+        integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+        crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+
+</body>
+
+</html>
